@@ -1,17 +1,24 @@
 # Aplikasi Buku Harian (Diary App)
 
-Nama:Renci Aprilia
-NIM:2430511040
+Nama:Raina Qinthara Rahmani
+NIM:2430511030
 
-## Langkah Menjalankan Proyek
-1. Buka terminal dan arahkan ke dalam direktori folder proyek
-2. Jalankan perintah npm install untuk menginstal seluruh dependensi yang dibutuhkan
-3. Ketik perintah npx expo start di terminal untuk menjalankan server pengembangan
-4. Buka aplikasi Expo Go di smartphone dan lakukan scan pada QR Code yang muncul di layar terminal
+🚀 Langkah Menjalankan Proyek
+Buka terminal komputer dan arahkan ke dalam direktori folder proyek ini.
 
-### Fitur yang Diselesaikan
-1. Halaman Utama (DiaryListScreen): Membuat layar daftar utama yang menampilkan teks sambutan, foto profil, dan kumpulan catatan harian
-2. Komponen Terpisah (Reusable Component): Membuat komponen khusus DiaryCard agar elemen UI kartu bisa digunakan berulang kali tanpa menulis ulang kode
-3. Penerapan Props: Mengalirkan data dinamis (judul, tanggal, preview isi buku harian, gambar, dan tipe mood) dari file utama ke dalam komponen DiaryCard
-4. Dynamic Styling (Gaya Dinamis): Mengubah warna border (garis tepi) pada kartu secara otomatis menggunakan fungsi switch yang merespons perubahan teks pada properti moodType
-5. Penggunaan Aset Lokal: Mengimpor dan merender gambar secara offline yang tersimpan di dalam folder assets/moods
+Jalankan perintah npm install untuk mengunduh semua dependensi yang diperlukan.
+
+Eksekusi perintah npx expo start untuk menyalakan development server.
+
+Buka aplikasi Expo Go di smartphone, lalu pindai (scan) QR Code yang tertera di terminal.
+
+✨ Fitur yang Telah Diselesaikan
+Layar Utama (DiaryListScreen): Membangun halaman antarmuka utama yang menyajikan sapaan, foto avatar, dan list catatan harian pengguna.
+
+Komponen Fleksibel (Reusable Component): Membuat DiaryCard sebagai komponen terpisah sehingga elemen kartu dapat dipanggil berkali-kali tanpa penulisan kode berulang.
+
+Sistem Props: Mengalirkan data dinamis berupa judul tulisan, tanggal, cuplikan isi, gambar, dan kategori mood ke dalam komponen DiaryCard.
+
+Visual Dinamis (Dynamic Styling): Menerapkan logika switch untuk mengubah warna garis tepi (border) kartu secara otomatis sesuai dengan kondisi pada properti moodType.
+
+Integrasi Aset Lokal: Mengelola dan merender visual secara offline dengan memanggil file gambar yang tersimpan rapi di dalam direktori assets/moods.
